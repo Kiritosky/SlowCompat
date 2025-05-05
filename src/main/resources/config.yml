@@ -1,3 +1,6 @@
+# This is the main configuration file for the plugin.
+
+#Gebiete
 gebiete:
   gebiet1:
     slot: 0
@@ -22,3 +25,20 @@ gebiete:
     y: 70
     z: 100
     world: world
+
+
+#Items
+items:
+  gold_rank:
+    slot: 0
+    item: GOLD_BLOCK
+    name: "&e&lGOLD RANG"
+    lore:
+      - "§cDieser Kostet 101010$"
+  fly_permission:
+    slot: 1
+    item: GREEN_DYE
+    name: "&7/fly"
+    lore:
+      - "§cDamit kannst du Fliegen."
+

@@ -6,15 +6,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import plugin.slowRights.SlowRights;
 
 public class rechtecommand implements CommandExecutor {
-
-    private final SlowRights plugin;
-
-    public rechtecommand(SlowRights plugin) {
-        this.plugin = plugin;
-    }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
@@ -25,7 +18,7 @@ public class rechtecommand implements CommandExecutor {
             }
             Player player = (Player) sender;
             player.playSound(player.getLocation(), Sound.BLOCK_TRIPWIRE_CLICK_ON, 1.0f, 1.0f);
-            new rechtegui(plugin).openInventory(player);
+            new rechtegui().openInventory(player);
         }
         return true;
     }

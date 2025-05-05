@@ -3,3 +3,22 @@ version: '1.0'
 main: plugin.slowCompat.SlowCompat
 api-version: '1.21'
 authors: [ Jxst_Kirito ]
+
+commands:
+  gebiete:
+    description: Öffnet ein GUI zum Teleportieren zu verschiedenen Gebieten
+    usage: /gebiete
+  werbung:
+    description: Sende eine Werbungsnachricht.
+    usage: /werbung <Nachricht>
+  rechte:
+    description: Zeigt die Rechte des Spielers an
+    usage: /rechte
+
+permission:
+  gebiete.open:
+    description: Erlaubt es dem Spieler, das GUI zu benutzen
+    default: true
+  slowrights.rechte:
+    description: Erlaubt es dem Spieler, seine Rechte anzuzeigen
+    default: true

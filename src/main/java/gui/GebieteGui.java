@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import plugin.slowAreaTp.SlowAreaTp;
+import plugin.slowCompat.SlowCompat;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,7 +35,7 @@ public class GebieteGui {
         }
 
 
-        SlowAreaTp plugin = SlowAreaTp.getInstance();
+        SlowCompat plugin = SlowCompat.getInstance();
         ConfigurationSection gebieteSection = plugin.getConfig().getConfigurationSection("gebiete");
 
         if (gebieteSection != null) {
