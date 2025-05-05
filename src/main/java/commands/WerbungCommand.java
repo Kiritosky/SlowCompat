@@ -31,7 +31,7 @@ public class WerbungCommand implements CommandExecutor {
         }
 
         if (args.length == 0) {
-            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f &7Bitte gebe &e/werbung &8[&dNachricht&8]&7 um den Befehl richtig zu benützen &fn"));
+            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f &7Bitte gebe &e/werbung &8[&dNachricht&8]&7 um den Befehl richtig zu benützen &f"));
             return true;
         }
 
