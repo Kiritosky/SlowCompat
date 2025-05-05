@@ -1,0 +1,5 @@
+name: SlowCompat
+version: '1.0'
+main: plugin.slowCompat.SlowCompat
+api-version: '1.21'
+authors: [ Jxst_Kirito ]
