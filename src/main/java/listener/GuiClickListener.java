@@ -24,7 +24,7 @@ public class GuiClickListener implements Listener {
 
         if (clickedItem == null || clickedItem.getType() == Material.AIR) return;
 
-        if (clickedItem.getType() == Material.BARRIER && clickedItem.getItemMeta().getDisplayName().equals("§c§lRanginfos")) {
+        if (clickedItem.getType() == Material.BARRIER && clickedItem.getItemMeta().getDisplayName().equals("§c§lRangshop")) {
             player.performCommand("rangshop");
         }
     }
